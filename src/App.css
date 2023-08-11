@@ -1,0 +1,53 @@
+/* .container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+} */
+
+.navbar {
+  background-color: #ff7e43;
+  padding: 10px;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #ff6200;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.footer {
+  background-color: #ff7e43;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+/* .background-container {
+  background-image: url('./Images/Banner.jpg'); /* Replace with the path to your image file */
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+  filter: brightness(-50%); */
+  /* Additional styling properties for the container */

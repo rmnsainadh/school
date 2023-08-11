@@ -1,0 +1,38 @@
+.sports-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .sports-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .sport-card {
+    flex: 1 0 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .sport-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .sport-card p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .sport-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    background-color: #ff6200;
+  }
+  .sport-card:hover h3,
+  .sport-card:hover p {
+  color: #fff;
+  }

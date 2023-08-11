@@ -1,0 +1,139 @@
+/* Home.css */
+
+/* Hero Section */
+.hero-section {
+    background-color: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .hero-content {
+    margin-bottom: 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff7e43;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff6200;
+  }
+  
+  /* Faculty Section */
+  /* Home.css */
+
+/* ... */
+
+/* Faculty Section */
+.faculty-section {
+    margin: 40px 0;
+  }
+  
+  .faculty-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .faculty-item {
+    text-align: center;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .faculty-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    background-color: #ff6200;
+  }
+  
+  .faculty-item:hover h3,
+  .faculty-item:hover p {
+  color: #fff;
+  }
+  .faculty-item img {
+    width: 100%;
+    max-width: 51mm;
+    height: auto;
+    border-radius: 50%; /* Make the image round */
+    margin-bottom: 10px;
+  }
+  .faculty-details h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .faculty-details p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Testimonial Section */
+  .testimonial-section {
+    background-color: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .testimonial-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .student-name {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  /* Call-to-Action Section */
+  .call-to-action-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .call-to-action-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .call-to-action-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
