@@ -1,14 +1,14 @@
 // Header.js
-import React from 'react';
-import headerImage from 'C:/Users/lokna/school/src/components/Images/Header.jpg'; // Replace 'header.jpg' with the actual file name and path
+import React from "react";
+import headerImage from "./Images/Header.jpg"; // Replace 'header.jpg' with the actual file name and path
 
 const Header = () => {
   const headerStyle = {
     backgroundImage: `url(${headerImage})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-    height: '700px'
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    height: "700px",
   };
 
   return (
