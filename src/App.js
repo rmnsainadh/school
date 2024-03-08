@@ -30,7 +30,7 @@ const App = () => {
               </li>
               <li className="nav-item">
                 <Link to="/about" className="nav-link">
-                  About Us
+                  About Hinata
                 </Link>
               </li>
               <li className="nav-item">
